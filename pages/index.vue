@@ -29,7 +29,10 @@
         </div>
     </nav>
     <div class="jumbotron">
-      <h1>HackerNight.io</h1>
+      <h1>HackNight.io</h1>
+      <div class="alert alert-dismissible alert-warning">
+        Thursday, November 15, 2018
+      </div>
       <p>Come join us for the initial Hackathon, featuring cash prizes and exposure to Twilio, AWS, and more. </p>
       <p>A few ground rules:</p>
       <p>
@@ -45,7 +48,7 @@
         Sound fun? It should be. Bring some friends. 
       </p>
       <div class="col-md-6 col-sm-12">
-        <!-- <img src="~assets/native-office.png"/> -->
+        <div class="map"></div>
         Hosted by our friends <a href="https://naativ.com" target="_blank">Naativ</a> at:
         <br/>
         <a href="https://www.google.com/maps/place/7927+High+Point+Pkwy+%23350,+Sandy,+UT+84094/@40.6150289,-111.8751317,13z/data=!4m13!1m7!3m6!1s0x8752629e33a933c9:0xe40d7ad4db04aa81!2s7927+High+Point+Pkwy+%23350,+Sandy,+UT+84094!3b1!8m2!3d40.6077476!4d-111.8558338!3m4!1s0x8752629e33a933c9:0xe40d7ad4db04aa81!8m2!3d40.6077476!4d-111.8558338" target="_blank">
@@ -62,11 +65,18 @@
               <input class="form-control" id="disabledInput" placeholder="... JK. We don't have one yet. Next time. " disabled="" type="text">
           </div>
         </p>
-      </div>        
+      </div>
       <div>
         &nbsp;
       </div>
-    
     </div>
   </section>
 </template>
+
+<style>
+.map {
+  background: url('~/assets/nativeMap.png');
+  width: 200px;
+  height: 200px;
+}
+</style>
