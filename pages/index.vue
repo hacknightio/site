@@ -34,22 +34,32 @@
     <div class="jumbotron">
       <h1>HackNight #1</h1>
       <div class="alert alert-dismissible alert-warning">
-        Thursday, November 15, 2018
+        Thursday, November 15, 2018 @ 6:30
       </div>
-      <p>Come join us for the initial Hackathon, featuring cash prizes and exposure to Twilio, AWS, and more. </p>
+      <p>
+        Come join us for the initial Hackathon, featuring cash prizes and exposure to Twilio, 
+        AWS, and more. 
+      </p>
+      <p>
+        Also, we'll have a 
+        <a href="https://www.youtube.com/watch?v=dX1x47UG6VI" target="_blank">Magic Leap Augmented Reality rig</a>
+        setup and some 
+        <a href="https://techcrunch.com/2018/10/18/twilio-launches-a-new-sim-card-and-narrowband-dev-kit-for-iot-developers/" target="_blank">nifty Raspberry-Pi-like circuits</a>          
+        for playing with, gift cards as door prizes, and (hopefully Pie Pizzeria) pizza.
+      </p>
       <hr/>
       <p>A few ground rules:</p>
       <p>
         <ol>
-          <li> The first rule of HackNight is you don't recruit at HackNight </li>
-          <li> The second rule of HackNight is <strong>you don't recruit at HackNight</strong> </li>
-          <li> Really though, feel free to network but there are no recruiters allowed. Just engineers throwing code</li>
+          <li> The first rule of HackNight is you don't recruit at HackNight. </li>
+          <li> The second rule of HackNight is <strong class="underline">you don't recruit at HackNight</strong>. </li>
+          <li> Really though, feel free to network but there are no recruiters allowed. Just engineers throwing code.</li>
           <li> Be respectful, follow directions, and help out where you can. All the regular "be a good human" things apply.</li>
         </ol>
       </p>
       <br/>
       <p>
-        Sound fun? It should be. Bring some friends. 
+        Sound fun? It should be. Bring some friends. Or make some there.
       </p>
       <hr/>
       <div class="col-md-6 col-sm-12 no-pad align-center">
@@ -70,25 +80,38 @@
           <br/>
           <div class="form-group">
               <!-- <label class="control-label" for="disabledInput">Mailing List</label> -->
-              <input class="form-control" id="disabledInput" placeholder="... JK. We don't have one yet. Next time. " disabled="" type="text">
+              <input class="form-control" id="disabledInput" placeholder="... JK. We don't have one yet... " disabled="" type="text">
           </div>
         </p>
       </div>
-      <div style="clear: both">
-        &nbsp;
+      <div class="footer">
+        Thanks to <a href="https://brobin.me/" target="_blank">Tobin Brown</a> for 
+        <a href="http://brobin.github.io/hacker-bootstrap/" target="_blank">this theme</a>.
       </div>
     </div>
   </section>
 </template>
 
 <style>
+a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.underline {
+  text-decoration: underline;
+}
+
 .logo {
   width: 25px;
   display: inline-block !important;
 }
+.navbar-header a {
+  text-decoration: none;
+}
 .map {
   width: 306px;
   height: 200px;
+  margin-bottom: 10px;
 }
 .align-center {
   text-align: center;
@@ -102,5 +125,10 @@
 }
 hr {
   border-top: 1px solid #333 !important;
+}
+.footer {
+  text-align: center;
+  clear: both;
+  padding: 15px 0 15px 0;
 }
 </style>
