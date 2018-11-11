@@ -9,7 +9,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">hn</a>
+                <a class="navbar-brand" href="#">
+                  <img src="~assets/logo.png" class="logo">
+                  hacknight.io
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -29,11 +32,12 @@
         </div>
     </nav>
     <div class="jumbotron">
-      <h1>HackNight.io</h1>
+      <h1>HackNight #1</h1>
       <div class="alert alert-dismissible alert-warning">
         Thursday, November 15, 2018
       </div>
       <p>Come join us for the initial Hackathon, featuring cash prizes and exposure to Twilio, AWS, and more. </p>
+      <hr/>
       <p>A few ground rules:</p>
       <p>
         <ol>
@@ -47,8 +51,10 @@
       <p>
         Sound fun? It should be. Bring some friends. 
       </p>
-      <div class="col-md-6 col-sm-12">
-        <div class="map"></div>
+      <hr/>
+      <div class="col-md-6 col-sm-12 no-pad">
+        <img class="map" src="~assets/naativMap.png">
+        <br/>
         Hosted by our friends <a href="https://naativ.com" target="_blank">Naativ</a> at:
         <br/>
         <a href="https://www.google.com/maps/place/7927+High+Point+Pkwy+%23350,+Sandy,+UT+84094/@40.6150289,-111.8751317,13z/data=!4m13!1m7!3m6!1s0x8752629e33a933c9:0xe40d7ad4db04aa81!2s7927+High+Point+Pkwy+%23350,+Sandy,+UT+84094!3b1!8m2!3d40.6077476!4d-111.8558338!3m4!1s0x8752629e33a933c9:0xe40d7ad4db04aa81!8m2!3d40.6077476!4d-111.8558338" target="_blank">
@@ -56,7 +62,7 @@
           Sandy, UT 84094
         </a>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 no-pad align-center">
         <p>
           Want to be a good citizen and join the mailing list to let us know you'll be there?
           <br/>
@@ -74,9 +80,22 @@
 </template>
 
 <style>
+.logo {
+  width: 25px;
+  display: inline !important;
+}
 .map {
-  background: url('~/assets/nativeMap.png');
-  width: 200px;
+  width: 306px;
   height: 200px;
+}
+.align-center {
+  text-align: center;
+}
+.no-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+hr {
+  border-top: 1px solid #333 !important;
 }
 </style>
