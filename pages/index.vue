@@ -3,13 +3,13 @@
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
+                </button> -->
+                <a class="navbar-brand" href="/">
                   <img src="~assets/logo.png" class="logo">
                   hacknight.io
                 </a>
@@ -52,7 +52,7 @@
         Sound fun? It should be. Bring some friends. 
       </p>
       <hr/>
-      <div class="col-md-6 col-sm-12 no-pad">
+      <div class="col-md-6 col-sm-12 no-pad align-center">
         <img class="map" src="~assets/naativMap.png">
         <br/>
         Hosted by our friends <a href="https://naativ.com" target="_blank">Naativ</a> at:
@@ -61,8 +61,10 @@
           7927 High Point Pkwy #350 <br/>
           Sandy, UT 84094
         </a>
+        <br/>
+        <br/><br/>
       </div>
-      <div class="col-md-6 col-sm-12 no-pad align-center">
+      <div class="col-md-6 col-sm-12 no-pad">
         <p>
           Want to be a good citizen and join the mailing list to let us know you'll be there?
           <br/>
@@ -82,7 +84,7 @@
 <style>
 .logo {
   width: 25px;
-  display: inline !important;
+  display: inline-block !important;
 }
 .map {
   width: 306px;
@@ -94,6 +96,9 @@
 .no-pad {
   padding-left: 0;
   padding-right: 0;
+}
+.jumbotron {
+  padding: 1px 20px !important;
 }
 hr {
   border-top: 1px solid #333 !important;
