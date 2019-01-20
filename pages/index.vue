@@ -112,11 +112,11 @@ hr {
   background: #000;
   padding: 15px;
   margin-bottom: 15px;
-  text-align: right;
 }
 .expander-link {
   display: block;
   cursor: pointer;
+  text-align: right;
 }
 .footer {
   text-align: center;
