@@ -3,7 +3,7 @@
     <div>
       <div class="col-sm-6 no-pad align-center">
         <h1>HackNight #2</h1>
-        <div class="alert alert-dismissible alert-warning">Thursday, January 31, 2019 @ 5:30</div>
+        <div class="alert alert-dismissible alert-warning">Thursday, February 7, 2019 @ 5:30</div>
       </div>
       <div class="col-sm-6 no-pad align-center">
         <img class="map" src="~assets/naativMap.png">
