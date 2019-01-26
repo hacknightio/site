@@ -21,7 +21,7 @@
     <br class="clear">
     <hr>
 
-    <p>Come close out Janaury and join us for the first HackNight Hackathon of 2019!</p>
+    <p>Kick off February and join us for the first HackNight Hackathon of 2019!</p>
 
     <div class="col-sm-6">
       <h4>Door prizes and loot to win, featuring:</h4>
