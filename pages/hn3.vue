@@ -28,7 +28,7 @@
       <ul>
         <li>Cash prizes (up to $500 for the winning team)</li>
         <li>Random swag and conference gear</li>
-        <li>Pizza from The Pi Pizzeria</li>
+        <li>Tons of good food</li>
         <li>A chance to win AWS gift cards</li>
       </ul>
     </div>
