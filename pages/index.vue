@@ -31,8 +31,9 @@
         </div>
       </div>
     </nav>
-    <Hacknight2/>
+    <Hacknight3/>
     <Collapser expandText="View past HackNights" collapseText="Collapse past HackNights">
+      <Hacknight2/>
       <Hacknight1/>
     </Collapser>
     <div class="jumbotron">
@@ -61,11 +62,13 @@
 <script>
 import Hacknight1 from './hn1'
 import Hacknight2 from './hn2'
+import Hacknight3 from './hn3'
 import Collapser from './collapser'
 export default {
   components: {
     Hacknight1,
     Hacknight2,
+    Hacknight3,
     Collapser
   }
 }
