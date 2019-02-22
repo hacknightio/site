@@ -4,6 +4,7 @@
       <div class="col-sm-6 no-pad align-center">
         <h1>HackNight #3</h1>
         <div class="alert alert-dismissible alert-warning">Tuesday, March 12, 2019 @ 5:30</div>
+        <h3><a href="https://www.eventbrite.com/e/hacknight-hackathon-tickets-56807348308?ref=elink" target="_blank" style="color:#00CC00">RSVP on Eventbrite</a></h3>
       </div>
       <div class="col-sm-6 no-pad align-center">
         <img class="map" src="~assets/naativMap.png">
@@ -36,23 +37,7 @@
     <div class="col-sm-6">
       <h4>Technologies on our radar this month:</h4>
       <ul>
-        <li>AWS Lambda, particularly with S3 / Elastic Transcoder / etc integrations</li>
-        <li>
-          AWS Alexa skills, with a focus on
-          <a
-            href="https://developer.amazon.com/docs/custom-skills/display-and-behavior-specifications-for-alexa-enabled-devices-with-a-screen.html"
-            target="_blank"
-          >skills with interfaces</a>
-        </li>
-        <li>Twilio: Flex + Programmable Video</li>
-        <li>
-          <a href="https://nats.io" target="_blank">NATS.io</a>
-          and
-          <a
-            href="https://nats.io/documentation/streaming/nats-streaming-intro/"
-            target="_blank"
-          >NATS streaming</a>
-        </li>
+        <li>Oculus Go - we may or may not have 10 of these to hack with...</li>
       </ul>
     </div>
 
