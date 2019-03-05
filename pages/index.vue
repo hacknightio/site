@@ -37,11 +37,13 @@
       <Hacknight1/>
     </Collapser>
     <div class="jumbotron">
-      <p>Want to be a good citizen and join the mailing list to let us know you'll be there?
+      <p><a href=“https://hacknightgroup.slack.com”>
+          <img alt=“Join us on Slack” src=“https://cdn.brandfolder.io/5H442O3W/as/pljt3c-dcwb20-2mmt84/Slack_RGB_White.png?height=76” />
+        </a>
         <br>
       </p>
-      <div class="form-group">
-        <!-- <label class="control-label" for="disabledInput">Mailing List</label> -->
+      <!-- <div class="form-group">
+        <label class="control-label" for="disabledInput">Mailing List</label>
         <input
           class="form-control"
           id="disabledInput"
@@ -49,7 +51,7 @@
           disabled
           type="text"
         >
-      </div>
+      </div>-->
     </div>
     <div class="footer">
       Thanks to
