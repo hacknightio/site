@@ -4,7 +4,7 @@
       <div class="col-sm-6 no-pad align-center">
         <h1>HackNight #4</h1>
         <div class="alert alert-dismissible alert-warning">Tuesday, April 16, 2019 @ 5:30</div>
-        <!-- <h3><a href="https://www.eventbrite.com/e/hacknight-hackathon-tickets-56807348308?ref=elink" target="_blank" style="color:#00CC00">RSVP on Eventbrite</a></h3> -->
+        <h3><a href="https://www.eventbrite.com/e/hacknight-tickets-58872795115?aff=site" target="_blank" style="color:#00CC00">RSVP on Eventbrite</a></h3>
       </div>
       <div class="col-sm-6 no-pad align-center">
         <img
