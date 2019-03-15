@@ -9,12 +9,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
           </button>-->
-          <a class="navbar-brand" href="/">
-            <img src="~assets/logo.png" class="logo">
+          <a
+            class="navbar-brand"
+            href="/"
+          >
+            <img
+              src="~assets/logo.png"
+              class="logo"
+            >
             hacknight.io
           </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div
+          id="navbar"
+          class="navbar-collapse collapse"
+        >
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Not a Menu... yet<span class="caret"></span> </a>
@@ -31,30 +40,77 @@
         </div>
       </div>
     </nav>
-    <Hacknight3/>
-    <Collapser expandText="View past HackNights" collapseText="Collapse past HackNights">
-      <Hacknight2/>
-      <Hacknight1/>
+    <Hacknight4 />
+    <Collapser
+      expand-text="View past HackNights"
+      collapse-text="Collapse past HackNights"
+    >
+      <Hacknight3 />
+      <Hacknight2 />
+      <Hacknight1 />
     </Collapser>
     <div class="jumbotron">
       <p>Want to be a good citizen and join the mailing list to let us know you'll be there?
         <br>
       </p>
-      <div class="form-group">
-        <!-- <label class="control-label" for="disabledInput">Mailing List</label> -->
-        <input
-          class="form-control"
-          id="disabledInput"
-          placeholder="... JK. We don't have one yet... "
-          disabled
-          type="text"
+      <div class="form-horizontal">
+
+        <form
+          id="mc-embedded-subscribe-form"
+          action="https://hacknight.us20.list-manage.com/subscribe/post?u=55ac300faa7d7d40ceee43b86&amp;id=776caa7fad"
+          method="post"
+          name="mc-embedded-subscribe-form"
+          class="form-inline"
+          target="_blank"
+          novalidate
         >
+          <div class="form-group col-xs-12">
+            <div class="col-sm-8">
+              <input
+                id="mce-EMAIL"
+                type="email"
+                class="form-control required email"
+                value=""
+                style="width: 100%"
+                name="EMAIL"
+                placeholder="purl@brocapital.com"
+            ></div>
+            <div class="col-sm-4">
+              <input
+                id="mc-embedded-subscribe"
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                class="button form-control"
+                style="width: 100%"
+              >
+            </div>
+          </div>
+
+          <div
+            style="position: absolute; left: -5000px;"
+            aria-hidden="true"
+          ><input
+            type="text"
+            name="b_55ac300faa7d7d40ceee43b86_776caa7fad"
+            tabindex="-1"
+            value=""
+          ></div>
+          <div class="clear" />
+        </form>
       </div>
     </div>
+
     <div class="footer">
       Thanks to
-      <a href="https://brobin.me/" target="_blank">Tobin Brown</a> for
-      <a href="http://brobin.github.io/hacker-bootstrap/" target="_blank">this theme</a>.
+      <a
+        href="https://brobin.me/"
+        target="_blank"
+      >Tobin Brown</a> for
+      <a
+        href="http://brobin.github.io/hacker-bootstrap/"
+        target="_blank"
+      >this theme</a>.
     </div>
   </section>
 </template>
@@ -63,12 +119,14 @@
 import Hacknight1 from './hn1'
 import Hacknight2 from './hn2'
 import Hacknight3 from './hn3'
+import Hacknight4 from './hn4'
 import Collapser from './collapser'
 export default {
   components: {
     Hacknight1,
     Hacknight2,
     Hacknight3,
+    Hacknight4,
     Collapser
   }
 }
