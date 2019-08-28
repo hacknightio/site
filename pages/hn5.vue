@@ -20,15 +20,14 @@
           <img class="map" src="~assets/kilnMap.png" />
         </a>
         <br />Hosted by our friends
-        <a href="https://naativ.com" target="_blank">Naativ</a> at:
+        <a href="https://kilnspace.com" target="_blank">Kiln</a> at:
         <br />
         <a
           href="https://www.google.com/maps/place/Kiln/@40.7685105,-111.9063965,17z/data=!3m1!4b1!4m5!3m4!1s0x8752f5a888525987:0x239c44b1dac61e00!8m2!3d40.7685105!4d-111.9042078"
           target="_blank"
         >
           Kiln @ The Gateway
-          <br />26 S Rio Grande St
-          <br />Suite 2072
+          <br />26 S Rio Grande St - Suite 2072
           <br />Salt Lake City, UT 84101
         </a>
       </div>
@@ -40,6 +39,17 @@
       Join us for a HackNight
       <strong>ROBOTICS</strong> Hackathon!
     </p>
+    <!--
+    <div>
+      <div class="col-sm-6 no-pad align-center">
+        <img class="map" src="~assets/kilnMisty.jpg" />
+      </div>
+      <div class="col-sm-6 no-pad align-center">
+        <p>Robots. They're so fun!</p>
+      </div>
+    </div>
+    <br class="clear" />
+    <hr />-->
 
     <div class="col-sm-6">
       <h4>Door prizes and loot to win, featuring:</h4>
@@ -60,7 +70,8 @@
         <li>AI/ML services for Object Recognition, Natural Language Processing, Voice Assistance (Siri / Alexa), etc</li>
       </ul>
     </div>
-    <hr class="clear" />
+    <br class="clear" />
+    <hr />
     <p>A few ground rules:</p>
     <p />
     <ol>

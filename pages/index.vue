@@ -108,6 +108,8 @@ export default {
     Hacknight2,
     Hacknight3,
     Hacknight4,
+    Hacknight5,
+    Summer2019,
     Collapser
   }
 }
