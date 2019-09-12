@@ -4,7 +4,7 @@
     <div>
       <div class="col-sm-6 no-pad align-center">
         <h1>HackNight #5</h1>
-        <div class="alert alert-dismissible alert-warning">Tuesday, September 12, 2019 @ 6:00</div>
+        <div class="alert alert-dismissible alert-warning">Thursday, September 12, 2019 @ 6:00</div>
         <h3>
           <a
             href="https://www.eventbrite.com/e/hexly-hacknight-september-tickets-70658564669"
