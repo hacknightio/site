@@ -20,7 +20,7 @@
     "event-stream": "^4.0.1",
     "express": "^4.16.3",
     "font-awesome": "^4.7.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
